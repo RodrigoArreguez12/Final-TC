@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.primerproyecto.App",
+            "projectName": "primerproyecto"
+        },
+        {
+            "name": "Debug ANTLR4 grammar",
+            "type": "antlr-debug",
+            "request": "launch",
+            // Archivo con la gramatica
+            "grammar": "${file}",
+            // Archivo a parsear
+            //"input": "primerproyecto/input/entrada.txt",
+            //"input": "primerproyecto/input/FechasHoras.txt",
+            //"input": "primerproyecto/input/parentesis.txt",
+            //"input": "primerproyecto/input/codigo.txt",
+            "input": "primerproyecto/input/mate.txt", 
+            //"input": "primerproyecto/input/tp2.txt",
+            // Simbolo inicial
+            "startRule": "prog",
+            // Muestra Arbol Sintactico
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}

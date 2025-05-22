@@ -1,0 +1,41 @@
+int multi(int a,int b){
+      return a * b;
+}
+
+int sumar(int a,int b){
+      return a + b;
+}
+
+int x = 0;
+int a = 1;
+int b = 5;
+
+x = a * b;
+int y = 0;
+y = x;
+int z;
+int k =  5;
+
+
+for(int i = 0;i < k; i = i + 1)
+{
+      z = i * i;
+}
+
+while(k != 0){
+      k = k - 1;
+}
+
+int s;
+int r = 1;
+int t = 5;
+s = sumar(r,t);
+
+if(s == 5)
+{
+      s = 1;  
+}
+else
+{
+      s = 0;
+}

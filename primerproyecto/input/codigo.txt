@@ -1,0 +1,12 @@
+int x,w = 1;
+double y;
+double k;
+int z = 0;
+x = 1;
+z = x;
+int ;
+while(x == z){
+    int i=2,j;
+}
+while(y > k)
+y=10;

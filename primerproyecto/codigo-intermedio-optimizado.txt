@@ -1,0 +1,50 @@
+label l0
+pop t0
+pop a
+pop b
+t1 = a * b 
+push t1
+jmp t0
+label l1
+pop t2
+pop a
+pop b
+t3 = a + b 
+push t3
+jmp t2
+x = 0 
+a = 1 
+b = 5 
+x = a * b 
+y = 0 
+y = x 
+k = 5 
+i = 0 
+label l2
+t5 = i < k 
+ifnjmp t5, l3
+z = i * i 
+t7 = i + 1 
+jmp l2
+label l3
+label l4
+t8 = k != 0 
+ifnjmp t8, l5
+k = k - 1 
+jmp l4
+label l5
+r = 1 
+t = 5 
+push r
+push t
+push l6
+jmp l1
+label l6
+pop s
+t10 = s == 5 
+ifnjmp t10, l7
+s = 1 
+jmp l8
+label l7
+s = 0 
+label l8
